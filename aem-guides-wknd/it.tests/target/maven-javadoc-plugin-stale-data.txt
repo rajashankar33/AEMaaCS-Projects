@@ -1,0 +1,106 @@
+@options
+@packages
+-classpath
+'C:/Users/rajas/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar;C:/Users/rajas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/rajas/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.45.0/htmlunit-2.45.0.jar;C:/Users/rajas/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar;C:/Users/rajas/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar;C:/Users/rajas/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar;C:/Users/rajas/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar;C:/Users/rajas/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar;C:/Users/rajas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/rajas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar;C:/Users/rajas/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/rajas/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.45.0/htmlunit-core-js-2.45.0.jar;C:/Users/rajas/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.45.0/neko-htmlunit-2.45.0.jar;C:/Users/rajas/.m2/repository/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar;C:/Users/rajas/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar;C:/Users/rajas/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.7.0/htmlunit-cssparser-1.7.0.jar;C:/Users/rajas/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar;C:/Users/rajas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/rajas/.m2/repository/commons-net/commons-net/3.7.2/commons-net-3.7.2.jar;C:/Users/rajas/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar;C:/Users/rajas/.m2/repository/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.34.v20201102/websocket-client-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/jetty-client/9.4.34.v20201102/jetty-client-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/jetty-http/9.4.34.v20201102/jetty-http-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/jetty-util/9.4.34.v20201102/jetty-util-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/jetty-io/9.4.34.v20201102/jetty-io-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.34.v20201102/websocket-common-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.34.v20201102/websocket-api-9.4.34.v20201102.jar;C:/Users/rajas/.m2/repository/com/adobe/cq/aem-cloud-testing-clients/1.2.1/aem-cloud-testing-clients-1.2.1.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.testing.rules/2.0.2/org.apache.sling.testing.rules-2.0.2.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.testing.serversetup/1.0.1/org.apache.sling.testing.serversetup-1.0.1.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.testing.clients/3.0.20/org.apache.sling.testing.clients-3.0.20.jar;C:/Users/rajas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar;C:/Users/rajas/.m2/repository/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.xss/2.2.16/org.apache.sling.xss-2.2.16.jar;C:/Users/rajas/.m2/repository/org/ops4j/pax/tinybundles/tinybundles/3.0.0/tinybundles-3.0.0.jar;C:/Users/rajas/.m2/repository/org/ops4j/base/ops4j-base-store/1.5.0/ops4j-base-store-1.5.0.jar;C:/Users/rajas/.m2/repository/org/ops4j/base/ops4j-base-io/1.5.0/ops4j-base-io-1.5.0.jar;C:/Users/rajas/.m2/repository/org/ops4j/base/ops4j-base-lang/1.5.0/ops4j-base-lang-1.5.0.jar;C:/Users/rajas/.m2/repository/org/ops4j/base/ops4j-base-monitors/1.5.0/ops4j-base-monitors-1.5.0.jar;C:/Users/rajas/.m2/repository/biz/aQute/bnd/biz.aQute.bndlib/3.5.0/biz.aQute.bndlib-3.5.0.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.hapi.client/1.0.0/org.apache.sling.hapi.client-1.0.0.jar;C:/Users/rajas/.m2/repository/joda-time/joda-time/2.10.13/joda-time-2.10.13.jar;C:/Users/rajas/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar;C:/Users/rajas/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar;C:/Users/rajas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/rajas/.m2/repository/org/apache/sling/org.apache.sling.api/2.23.6/org.apache.sling.api-2.23.6.jar;C:/Users/rajas/.m2/repository/org/jetbrains/annotations/16.0.2/annotations-16.0.2.jar;C:/Users/rajas/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar;C:/Users/rajas/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0.jar;C:/Users/rajas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar;C:/Users/rajas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.1/jackson-databind-2.13.2.1.jar;C:/Users/rajas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar;C:/Users/rajas/.m2/repository/org/osgi/org.osgi.compendium/5.0.0/org.osgi.compendium-5.0.0.jar;C:/Users/rajas/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar;C:/Users/rajas/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar;C:/Users/rajas/.m2/repository/com/adobe/aem/headless/aem-headless-client-java/0.8.0/aem-headless-client-java-0.8.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/code/AEMaaCS Samples/aem-guides-wknd/it.tests/src/main/java;C:/code/AEMaaCS Samples/aem-guides-wknd/it.tests/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2019&#x2013;2026 <a href="http://www.adobe.com/">Adobe</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/code/AEMaaCS Samples/aem-guides-wknd/it.tests/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'WKND Sites Project - Integration Tests 4.0.5-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'WKND Sites Project - Integration Tests 4.0.5-SNAPSHOT API'
+com.adobe.aem.guides.wknd.it.tests
+C:\Users\rajas\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar = 1773549692913
+C:\Users\rajas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1773549157271
+C:\Users\rajas\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.45.0\htmlunit-2.45.0.jar = 1773549696080
+C:\Users\rajas\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar = 1773549696250
+C:\Users\rajas\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar = 1773549696317
+C:\Users\rajas\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar = 1773549696316
+C:\Users\rajas\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar = 1773549696162
+C:\Users\rajas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar = 1773549696183
+C:\Users\rajas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1773549696244
+C:\Users\rajas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar = 1773549696261
+C:\Users\rajas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1773549104905
+C:\Users\rajas\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.45.0\htmlunit-core-js-2.45.0.jar = 1773549696335
+C:\Users\rajas\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.45.0\neko-htmlunit-2.45.0.jar = 1773549696314
+C:\Users\rajas\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar = 1773549696380
+C:\Users\rajas\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar = 1773549693822
+C:\Users\rajas\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar = 1773549696389
+C:\Users\rajas\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar = 1773549696465
+C:\Users\rajas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1773549104841
+C:\Users\rajas\.m2\repository\commons-net\commons-net\3.7.2\commons-net-3.7.2.jar = 1773549696466
+C:\Users\rajas\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar = 1773549696388
+C:\Users\rajas\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar = 1773549696433
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.34.v20201102\websocket-client-9.4.34.v20201102.jar = 1773549696436
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\jetty-client\9.4.34.v20201102\jetty-client-9.4.34.v20201102.jar = 1773549696444
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\jetty-http\9.4.34.v20201102\jetty-http-9.4.34.v20201102.jar = 1773549696491
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\jetty-util\9.4.34.v20201102\jetty-util-9.4.34.v20201102.jar = 1773549696494
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\jetty-io\9.4.34.v20201102\jetty-io-9.4.34.v20201102.jar = 1773549696491
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.34.v20201102\websocket-common-9.4.34.v20201102.jar = 1773549696524
+C:\Users\rajas\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.34.v20201102\websocket-api-9.4.34.v20201102.jar = 1773549696514
+C:\Users\rajas\.m2\repository\com\adobe\cq\aem-cloud-testing-clients\1.2.1\aem-cloud-testing-clients-1.2.1.jar = 1773549696575
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.testing.rules\2.0.2\org.apache.sling.testing.rules-2.0.2.jar = 1773549696556
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.testing.serversetup\1.0.1\org.apache.sling.testing.serversetup-1.0.1.jar = 1773549696553
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.testing.clients\3.0.20\org.apache.sling.testing.clients-3.0.20.jar = 1773549696566
+C:\Users\rajas\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar = 1773549229886
+C:\Users\rajas\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar = 1773549696588
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.xss\2.2.16\org.apache.sling.xss-2.2.16.jar = 1773549696895
+C:\Users\rajas\.m2\repository\org\ops4j\pax\tinybundles\tinybundles\3.0.0\tinybundles-3.0.0.jar = 1773549696601
+C:\Users\rajas\.m2\repository\org\ops4j\base\ops4j-base-store\1.5.0\ops4j-base-store-1.5.0.jar = 1773549696605
+C:\Users\rajas\.m2\repository\org\ops4j\base\ops4j-base-io\1.5.0\ops4j-base-io-1.5.0.jar = 1773549696636
+C:\Users\rajas\.m2\repository\org\ops4j\base\ops4j-base-lang\1.5.0\ops4j-base-lang-1.5.0.jar = 1773549696639
+C:\Users\rajas\.m2\repository\org\ops4j\base\ops4j-base-monitors\1.5.0\ops4j-base-monitors-1.5.0.jar = 1773549696641
+C:\Users\rajas\.m2\repository\biz\aQute\bnd\biz.aQute.bndlib\3.5.0\biz.aQute.bndlib-3.5.0.jar = 1773549696836
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.hapi.client\1.0.0\org.apache.sling.hapi.client-1.0.0.jar = 1773549696816
+C:\Users\rajas\.m2\repository\joda-time\joda-time\2.10.13\joda-time-2.10.13.jar = 1773549696839
+C:\Users\rajas\.m2\repository\org\apache\taglibs\taglibs-standard-impl\1.2.5\taglibs-standard-impl-1.2.5.jar = 1773549696806
+C:\Users\rajas\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar = 1773549696867
+C:\Users\rajas\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1773549158328
+C:\Users\rajas\.m2\repository\org\apache\sling\org.apache.sling.api\2.23.6\org.apache.sling.api-2.23.6.jar = 1773549696962
+C:\Users\rajas\.m2\repository\org\jetbrains\annotations\16.0.2\annotations-16.0.2.jar = 1773549189597
+C:\Users\rajas\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar = 1773549696906
+C:\Users\rajas\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar = 1773548937983
+C:\Users\rajas\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar = 1773549696907
+C:\Users\rajas\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.1\jackson-databind-2.13.2.1.jar = 1773549696989
+C:\Users\rajas\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar = 1773549696951
+C:\Users\rajas\.m2\repository\org\osgi\org.osgi.compendium\5.0.0\org.osgi.compendium-5.0.0.jar = 1773549696980
+C:\Users\rajas\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar = 1773549696970
+C:\Users\rajas\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar = 1773549696992
+C:\Users\rajas\.m2\repository\com\adobe\aem\headless\aem-headless-client-java\0.8.0\aem-headless-client-java-0.8.0.jar = 1773549697007
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\src\main\java = 1773547875958
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\generated-sources\annotations = 1773549701486
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\allclasses-index.html = 1773549726153
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\allpackages-index.html = 1773549726160
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\copy.svg = 1773549726257
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\element-list = 1773549725984
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\help-doc.html = 1773549726245
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\index-all.html = 1773549726222
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\index.html = 1773549726234
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\link.svg = 1773549726322
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\member-search-index.js = 1773549726179
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\module-search-index.js = 1773549726165
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\overview-tree.html = 1773549726118
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\package-search-index.js = 1773549726170
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\script.js = 1773549726255
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\search-page.js = 1773549726351
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\search.html = 1773549726228
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\search.js = 1773549726341
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\stylesheet.css = 1773549726251
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\tag-search-index.js = 1773549726183
+C:\code\AEMaaCS Samples\aem-guides-wknd\it.tests\target\apidocs\type-search-index.js = 1773549726174
